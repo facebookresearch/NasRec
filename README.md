@@ -26,7 +26,7 @@ This is the official implementation of our work, [**NASRec: Weight Sharing Neura
 **Step 1: Download preprocessed training/validation/testing dataset from the following link:**
 You are also able to visit `tools/autoctr_split_data_<dataset>.py` and run the processed script to obtain the dataset from raw [criteo](https://www.kaggle.com/competitions/criteo-display-ad-challenge/data), [avazu](https://www.kaggle.com/competitions/avazu-ctr-prediction/data), or [kdd](https://www.kaggle.com/competitions/kddcup2012-track2). We only use the **"training"** set on kaggle as testing set does not have labels. For example,
 ```
-python nasrec/tools/autoctr_split_data_criteo.py --data_dir <dataset>/train.csv --output_dir ./data/criteo_kaggle
+python nasrec/tools/autoctr_split_data_criteo.py --data_path <dataset>/train.csv --output_dir ./data/criteo_kaggle
 ```
 Please unzip the data and place them under the folder "./data". (You may need to create one if it does not exist.)
 
