@@ -1,6 +1,6 @@
 
-# [WWW'23] NASRec: Weight Sharing Neural Architecture Search for Recommender Systems
-This is the official implementation of our work, [**NASRec: Weight Sharing Neural Architecture Search for Recommender Systems.**](https://arxiv.org/abs/2207.07187) This work implements a design automation for Click-Through Rate (CTR) prediction task on Recommender Systems, enabling the design and exploration of CTR models in an automatic fashion. 
+# Neural Architecture Search for Recommender Systems
+This codebase supports Neural Achitecture Search for recommender systems. This work implements a design automation for Click-Through Rate (CTR) prediction task on Recommender Systems, enabling the design and exploration of CTR models in an automatic fashion. Technical details are published at [**NASRec: Weight Sharing Neural Architecture Search for Recommender Systems.**](https://arxiv.org/abs/2207.07187) 
 
 ## Highlights
 
